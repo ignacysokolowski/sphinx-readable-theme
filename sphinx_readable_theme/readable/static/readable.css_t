@@ -191,30 +191,49 @@ a.headerlink:hover {
     color: #fff;
 }
 
-div.body ul, div.body ol {
-    list-style: none;
+div.body ul {
+    list-style: disc;
     margin: 1em 0;
-    padding-left: .2em;
+    padding-left: 1.3em;
 }
 
-div.body ul ul {
+div.body ul ul, div.body ol ul {
     margin: .2em 0;
-    padding-left: 1em;
+    padding-left: 1.2em;
+}
+
+div.body ul li {
+    padding: 2px 0;
+}
+
+div.body ol {
+    counter-reset: li;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 div.body ol ol {
     margin: .2em 0;
-    padding-left: 1em;
 }
 
-div.body ul li {
-    list-style: disc inside;
+div.body ol > li {
+    list-style: none;
+    margin: 0 0 0 1.9em;
+    padding: 2px 1px;
+    position: relative;
 }
 
-div.body ol li {
-    list-style: decimal inside;
+div.body ol > li:before {
+    content: counter(li) ".";
+    counter-increment: li;
+    top: -2px;
+    left: -1.9em;
+    width: 1.9em;
+    padding: 4px 0;
+    position: absolute;
+    text-align: left;
 }
- 
+
 div.body p,
 div.body dd,
 div.body li {
