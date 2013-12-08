@@ -33,6 +33,21 @@ License
 Sphinx Readable Theme is licensed under the MIT license.
 
 
+Changelog
+=========
+
+Version 1.0.0
+-------------
+
+* Fixed continuation lines in long ordered and unordered list items
+* Fixed references in Autodoc example
+
+Version 0.1.0
+-------------
+
+First release
+
+
 Theme style
 ===========
 
@@ -295,4 +310,3 @@ Autodoc
 ~~~~~~~
 
 .. automodule:: example
-   :noindex:
