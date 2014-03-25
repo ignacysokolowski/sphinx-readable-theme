@@ -43,6 +43,11 @@ Sphinx Readable Theme is licensed under the MIT license.
 Changelog
 =========
 
+Version 1.1.0
+-------------
+
+* Fixed footnote tables width -- thanks, Nick Zaccardi!
+
 Version 1.0.0
 -------------
 
