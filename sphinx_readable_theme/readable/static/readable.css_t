@@ -328,6 +328,10 @@ table.docutils {
     width: 100%;
 }
 
+table.docutils.footnote {
+    width: auto;
+}
+
 table.docutils thead,
 table.docutils tfoot {
     background: #f5f5f5;
