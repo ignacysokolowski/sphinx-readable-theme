@@ -27,6 +27,14 @@ And add this to your ``conf.py``:
     html_theme = 'readable'
 
 
+Custom Variables
+================
+
+stickysidebar (true/false)
+    Make the sidebar scroll with the page so it is never out of view.
+
+
+
 License
 =======
 
