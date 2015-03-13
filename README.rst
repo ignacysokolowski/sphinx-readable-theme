@@ -43,6 +43,11 @@ Sphinx Readable Theme is licensed under the MIT license.
 Changelog
 =========
 
+Version 1.2.0
+-------------
+
+* Added styles for ``<code>`` tag, which replaced ``<tt>`` in Sphinx 1.3
+
 Version 1.1.0
 -------------
 

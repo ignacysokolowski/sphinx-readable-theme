@@ -288,20 +288,20 @@ pre {
     -moz-box-shadow: 1px 1px 1px #d8d8d8;
 }
 
-pre, tt {
+pre, tt, code {
     font-family: 'Consolas', 'Menlo', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
 }
  
-tt {
+tt, code {
     background-color: #ecf0f3;
     font-size: 0.85em;
 }
 
-tt.descname {
+tt.descname, code.descname {
     font-size: 0.95em;
 }
 
-tt.xref, a tt {
+tt.xref, a tt, code.xref, a code {
     font-weight: normal;
 }
 
