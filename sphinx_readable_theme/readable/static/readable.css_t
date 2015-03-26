@@ -206,6 +206,10 @@ div.body ul li {
     padding: 2px 0;
 }
 
+div.body ul.search li {
+    padding: 5px 0 5px 20px;
+}
+
 div.body ol {
     counter-reset: li;
     margin-left: 0;
