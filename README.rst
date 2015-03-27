@@ -43,6 +43,11 @@ Sphinx Readable Theme is licensed under the MIT license.
 Changelog
 =========
 
+Version 1.3.0
+-------------
+
+* Fixed padding for search results -- thanks, Matt Bennett!
+
 Version 1.2.0
 -------------
 
