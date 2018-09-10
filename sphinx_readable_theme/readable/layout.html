@@ -10,12 +10,3 @@
   <div class="indexwrapper">
   {% endif %}
 {% endblock %}
-{%- block footer %}
-  <div class="footer">
-    &copy; Copyright {{ copyright }}.
-    {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
-  </div>
-  {% if pagename == 'index' %}
-  </div>
-  {% endif %}
-{%- endblock %}
