@@ -19,7 +19,8 @@ setup(
     description='Sphinx Readable Theme',
     long_description=read_file('README.rst'),
     url='https://github.com/ignacysokolowski/sphinx-readable-theme',
-    license=read_file('LICENSE'),
+    license='MIT',
+    data_files=[('license', ['LICENSE'])],
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
